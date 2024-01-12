@@ -1,0 +1,13 @@
+name: GLEAMV3_Public
+title: GLEAMV3_Public
+username:
+account: foodandagricultureorganization
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6132113
+bundleId: 8073618
+url: https://foodandagricultureorganization.shinyapps.io/GLEAMV3_Public/
+when: 1703178683.21704
+lastSyncTime: 1703178683.21705
+asMultiple: FALSE
+asStatic: FALSE

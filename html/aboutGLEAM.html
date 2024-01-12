@@ -1,20 +1,193 @@
-<h2> What is GLEAM?</h2>
-
-The Global Livestock Environmental Assessment Model (GLEAM) is a geospatial framework that simulates the bio-physical processes and activities within livestock systems, using a Life Cycle Assessment (LCA) approach. The aim of GLEAM is to quantify production and use of natural resources in livestock systems and to identify their environmental impacts. Estimating these impacts is essential to establish robust baselines, and to estimate the expected impacts of different livestock sector trends and actions to mitigate environmental impacts.
-    GLEAM provides a systematic, global coverage of six livestock species and their edible products: meat and milk from cattle, buffalo, sheep and goats; meat from pigs; and meat and eggs from chickens. Further information on the methodology and the input data can be found on <a href=http://www.fao.org/gleam/en/> our website </a>.
+<h3> What is GLEAM?</h3>
+The Global Livestock Environmental Assessment Model (GLEAM) is a geospatial framework that simulates the bio-physical processes 
+and activities within livestock systems, using a Life Cycle Assessment (LCA) approach. The aim of GLEAM is to quantify production 
+and use of natural resources in livestock systems and to identify their environmental impacts. Estimating these impacts is essential 
+to establish robust baselines, and to estimate the expected impacts of different livestock sector trends and actions to mitigate environmental impacts. 
+GLEAM provides a systematic, global coverage of six livestock species and their edible products: meat and milk from cattle, 
+buffalo, sheep and goats; meat from pigs; and meat and eggs from chickens. Further information on the methodology and the input 
+data can be found on <a href=http://www.fao.org/gleam/en/> our website</a>.
 
 <p>&nbsp;</p>
 
-<h2> GLEAM v3 Data</h2>
-While GLEAM uses a spatially explicit model at 5 arc minutes pixel resolution, the results shown in this dashbaoard represent regional aggregates that mask considerable varations that exists across individual countries and even within countries. There is also a large range in data availability and data quality for different regions that results in very different reginonal uncertainties associated with the results.
-This limitation need to be taken into account when interpreting data, in particular emissions and emission intensities. For example, using the regional emission intensities presented here to calculate life cycle emissions for a certain animal product in a given country might lead to a very misleading result that should not be used to draw conclusions on the emissions footprint of a certain product or to compare those footprints between countries. Similarly, these emission intensities may not appropriately represent the impacts associated with single companies or farms, as the input data used by the model may not be representative of their specific livestock breeding practices.
+<h3> GLEAM 3 Data</h3>
+While GLEAM uses a spatially explicit model at 5 arc minutes pixel resolution, the results shown in this dashbaoard represent regional a
+aggregates that mask considerable varations that exists across individual countries and even within countries. There is also a large 
+range in data availability and data quality for different regions that results in very different regional uncertainties associated with the results.
+This limitation should be taken into account when interpreting data, in particular emissions and emission intensities. 
+For example, using the regional emission intensities presented here to calculate life cycle emissions for a certain animal product 
+in a given country might lead to a very misleading result that should not be used to draw conclusions on the emissions footprint of a certain 
+product or to compare those footprints between countries. Similarly, these emission intensities may not appropriately represent the impacts 
+associated with single companies or farms, as the input data used by the model may not be representative of their specific livestock breeding practices.
 Please <a href="mailto:info-GLEAM@fao.org"> contact us </a> for more information.
 
 <p>&nbsp;</p>
 
-<h2> Required Citation</h2>
+<h3>Why GLEAM 3 GHG emission estimates (released 2022) must not be compared with earlier versions</h3>
+The estimates of GHG emissions from GLEAM 3 are different both in absolute emissions and in terms of relative share of total anthropogenic 
+emissions when compared to numbers reported in previous publications, such as &ldquo;Livestock&rsquo;s long shadow&rdquo; (Steinfeld et al., 2006) 
+and &ldquo;Tackling Climate Change through Livestock&rdquo; (Gerber et al., 2013). While all these estimates were simulated with FAO&rsquo;s 
+Global Livestock Environmental Assessment Model (GLEAM) and for different reference years (2005, 2010, and 2015 for GLEAM 1, 2, and 3), 
+the methods and underlying data sets are different, and the different figures should not be interpreted as time series. It is, therefore, 
+impossible to draw conclusions like &ldquo;emissions went up&rdquo; or &ldquo;livestock emissions are becoming less important compared to total 
+anthropogenic emissions&rdquo; from those data sets. Key differences among the three versions are summarised below.
+
+<p>&nbsp;</p>
+
+<h3>Global Warming Potential (GWP) values</h3>
+
+The choice of GWP values for methane (CH<sub>4</sub>) and Nitrous Oxide (N<sub>2</sub>O) has an impact on the conversion of estimated emissions 
+to CO<sub>2</sub>-equivalents, therefore influencing absolute values for both livestock and total anthropogenic emissions and the share of livestock emissions. 
+The conversion factors were taken from the respective IPCC assessment reports for the 100-year period, as summarised in <b>Table 1.</b>
+
+
+<p>&nbsp;</p>
+<table align="center" border="1" style="width:1000px" >
+	<tbody>
+		<tr style = "padding-left: 20px;">
+			<td style="width:133px">
+			<p style="text-align:center"><strong></strong></p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"><strong> Base year </strong></p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"><strong> IPCC AR version </strong></p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"><strong> Carbon dioxide (CO<sub>2</sub>) </strong></p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"><strong> Methane (CH<sub>4</sub>) </strong></p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"><strong> Nitrous oxide (N<sub>2</sub>O) </strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:133px">
+			<p style="text-align:center"><strong> GLEAM 1 </strong></p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 2005 </p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> AR4 (2007) </p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 1 </p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 25</p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 298 </p>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width:133px">
+			<p style="text-align:center"><strong> GLEAM 2 </strong></p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 2010 </p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> AR5 cc fb (2015) </p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 1 </p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 34</p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 298 </p>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width:133px">
+			<p style="text-align:center"><strong> GLEAM 3 </strong></p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 2015 </p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> AR6 (2022) </p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 1 </p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 27*</p>
+			</td>
+			<td style="width:133px">
+			<p style="text-align:center"> 273 </p>
+			</td>
+		</tr>
+
+	</tbody>
+</table>
+<p style="font-size: 13; text-align:center"><b>Table 1. Greenhouse gas conversion factors.</b> <br>
+Source: IPCC 1995 - Table 2.9; IPCC 2007 - Table 2.14; IPCC 2013 - Table 8.7, with carbon feedback; IPCC 2021 - Table 7.15. <br> 
+For illustration of the impact of different GWP values, the emission estimates on the dashboard can be summarised for different GWP100 sets.
+
+<p>&nbsp;</p>
+
+<h3>Different data and methods</h3>
+The different model versions of GLEAM rely on very different data sets for input data such as: animal numbers and distribution, 
+production and availability of feed crops and pastures, livestock production systems, parameters of herd performances and productivity, 
+manure management systems, fertilizer and pesticides applications, and many others. &nbsp;</p>
+
+For many of those data, the underlying methods and definitions, in turn, vary for different years as well and require changes in the model 
+workflow and differences in some of the modelling approaches within GLEAM from one version to another. &nbsp;</p>
+
+In addition, there are methodological changes that reflect updated guidelines or advances in the scientific literature. Some examples are:&nbsp;</p>
+
+<ul>
+	<li>The inclusion and refinement of feedlots models,
+	</li>
+	<li>Use of bilateral trade data to adjust emissions, inputs and parameters for internationally traded feed items,
+	</li>
+	<li>Differences in nitrogen modelling along the livestock supply chain based on mass balance principles (European Environmental Agency 2016; Uwizeye et al. 2020), or&nbsp;
+	</li>
+	<li>Methodological updates from the 2006 IPCC Guidelines for National Greenhouse Gas Inventories (IPCC, 2006) to the latest 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories (IPCC, 2019).
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h3> Reference List </h3>
+<ul style="list-style-type:circle; font-size: 13">
+<li> European Environmental Agency. 2016. <i>EMEP/EEA air pollutant emission inventory guidebook 2016. Technical guidance to prepare national emission inventories.</i> EEA Report No 21/2016, 24 pp. doi:10.2800/247535 </li>
+
+<li>FAO. 2022. <i>GLEAM v3 Model description.</i>&nbsp;<a href="https://www.fao.org/gleam/resources/en/">https://www.fao.org/gleam/resources/en/</a>&nbsp;&nbsp;</li>
+
+<li>Gerber, P.J., Steinfeld, H., Henderson, B., Mottet, A., Opio, C., Dijkman, J., Falcucci, A. &amp; Tempio, G. 2013. <i>Tackling climate change through livestock &ndash; A global assessment of emissions and mitigation opportunities.</i> Rome. FAO.&nbsp;<a href="https://www.fao.org/3/i3437e/i3437e00.htm">https://www.fao.org/3/i3437e/i3437e00.htm</a></li>
+
+<li>IPCC. 1995. Climate Change 1995: The Science of Climate Change. <i>Contribution of Working Groups I to the Second Assessment Report of the Intergovernmental Panel on Climate Change.</i> Houghton, J.T., Meira Filho, L.G., Callander, B.A., Harris, N., Kattenberg, A. &amp; Maskell, K. (eds). Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA.</li>
+
+<li>IPCC. 2006. <i>2006 IPCC Guidelines for National Greenhouse Gas Inventories</i>. Eggelston, S., Bendia, L., Miwa, K., Ngara, T. &amp; Tanabe, K. (eds). Published: IPCC, Switzerland. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
+
+<li>IPCC, 2007.&nbsp;Climate Change 2007: The Physical Science Basis. <i>Contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change</i> [Solomon, S., D. Qin, M. Manning, Z. Chen, M. Marquis, K.B. Averyt, M. Tignor &amp; H.L. Miller (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, 996 pp.&nbsp;</li>
+
+<li>IPCC. 2013. Climate Change 2013: The Physical Science Basis. <i>Working Groups I Contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change.</i> Stocker, T.F., Dahe, Q., Plattner, G., Tignor, M.M.B., Allen, S.K., Boschung, J., Nauels, A., Xia, Y., Bex, V. &amp; Midgley, P.M. (eds). Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA,</li>
+
+<li>IPCC. 2019. <i>Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories</i>. Calvo Buendia, E., Tanabe, K., Kranjc, A., Baasansuren, J., Fukuda, M., Ngarize S., Osako, A., Pyrozhenko, Y., Shermanau, P. &amp; Federici, S. (eds). Published: IPCC, Switzerland.</li>
+
+<li>IPCC. 2021. Climate Change 2021: The Physical Science Basis. <i>Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change.</i> [Masson-Delmotte, V., P. Zhai, A. Pirani, S.L. Connors, C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M.I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J.B.R. Matthews, T.K. Maycock, T. Waterfield, O. Yelekcéi, R. Yu, &amp; B. Zhou (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, 2391 pp. doi:10.1017/9781009157896.&nbsp;</li>
+
+<li>Steinfeld, H., Gerber, P., Wassenaar, T., Castel, V., Rosales, M. &amp; de Haan, C. 2006. <i>Livestock&#39;s Long Shadow. The Livestock, Environment and Development Initiative (LEAD).</i> Rome. FAO.&nbsp;<a href="https://www.fao.org/3/a0701e/a0701e.pdf">http://www.fao.org/docrep/010/a0701e/a0701e00.htm</a></li>
+
+<li>Uwizeye, A., de Boer, I.J.M., Opio, C.I., Shulte, R.P.O., Falcucci, A., Tempio, G., Teillard, F., Casu, F., Rulli, M., Galloway, J.N., Leip, A., Erisman,W.J., Robinson,T.P., Steinfeld, H. & Gerber, P.J. 2020. <i>Nitrogen emissions along global livestock supply chains.</i> Nat Food 1, 437–446. doi.org/10.1038/s43016-020-0113-y 
+</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h3> Required Citation</h3>
 When referencing the data, please use the following citation:
 
-<i>FAO. 2022. GLEAM v3 Dashboard. In: Shiny Apps. Cited [date accessed]. https://foodandagricultureorganization.shinyapps.io/GLEAMV3_Public/</i>
+<i>FAO. 2022. GLEAM 3 Dashboard. In: Shiny Apps. Cited [date accessed]. https://foodandagricultureorganization.shinyapps.io/GLEAMV3_Public/</i>
 <br>
 <br>
